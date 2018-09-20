@@ -1,0 +1,61 @@
+% Copyright 2007 by Till Tantau
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\ProvidesPackageRCS $Header: /Users/joseph/Documents/LaTeX/beamer/base/themes/color/beamercolorthemecrane.sty,v d02a7cf4d8ae 2010/06/17 09:11:41 rivanvx $
+
+
+\mode<presentation>
+
+%\definecolor{dianaheplight}{RGB}{52,187,6}
+%\definecolor{dianahepdark}{RGB}{4,6,76}
+%\definecolor{dianahepmiddle}{RGB}{4,6,76}
+\definecolor{dianahepdark}{HTML}{2C3E50}
+\definecolor{dianahepmiddle}{HTML}{2980BA}
+\definecolor{dianaheplight}{HTML}{3B97D3}
+
+\setbeamercolor{structure}{fg=dianahepdark}
+
+%\setbeamercolor{palette primary}{fg=dianahepdark,bg=dianaheplight!70}
+%\setbeamercolor{palette secondary}{fg=dianahepdark,bg=dianaheplight!80}
+%\setbeamercolor{palette tertiary}{fg=dianahepdark,bg=dianaheplight!90}
+%\setbeamercolor{palette quaternary}{fg=dianahepdark,bg=dianaheplight}
+
+\setbeamercolor{palette primary}{fg=white,bg=dianahepdark}
+\setbeamercolor{palette secondary}{fg=white,bg=dianahepmiddle}
+\setbeamercolor{palette tertiary}{fg=white,bg=dianaheplight}
+\setbeamercolor{palette quaternary}{fg=white,bg=dianahepdark}
+
+\setbeamercolor{titlelike}{parent=palette quaternary}
+
+\setbeamercolor{block title}{fg=dianahepdark,bg=dianaheplight}
+\setbeamercolor{block title alerted}{use=alerted text,fg=dianahepdark,bg=alerted text.fg!75!bg}
+\setbeamercolor{block title example}{use=example text,fg=dianahepdark,bg=example text.fg!75!bg}
+
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!25!bg}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!25!bg}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.bg!25!bg}
+
+\setbeamercolor{sidebar}{bg=dianaheplight!70}
+  
+%\setbeamercolor{palette sidebar primary}{fg=dianahepdark}
+%\setbeamercolor{palette sidebar secondary}{fg=dianahepdark!75}
+%\setbeamercolor{palette sidebar tertiary}{fg=dianahepdark!75}
+%\setbeamercolor{palette sidebar quaternary}{fg=dianahepdark}
+
+\setbeamercolor{palette sidebar primary}{fg=dianahepdark}
+\setbeamercolor{palette sidebar secondary}{fg=dianahepmedium}
+\setbeamercolor{palette sidebar tertiary}{fg=dianaheplight}
+\setbeamercolor{palette sidebar quaternary}{fg=dianahepdark}
+
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+\mode
+<all>
