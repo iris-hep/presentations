@@ -7,5 +7,8 @@ irishep-scf5:
 	pdflatex 20180920-iris-hep-cern-scf.tex
 	pdflatex 20180920-iris-hep-cern-scf.tex
 
+irishep-ihep:
+	pdflatex 20180927-iris-hep-ihep.tex
+	pdflatex 20180927-iris-hep-ihep.tex
 
 
