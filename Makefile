@@ -11,4 +11,7 @@ irishep-ihep:
 	pdflatex 20180927-iris-hep-ihep.tex
 	pdflatex 20180927-iris-hep-ihep.tex
 
+irishep-cms-sc:
+	pdflatex 20181023-iris-hep-cms-offline-computing.tex
+	pdflatex 20181023-iris-hep-cms-offline-computing.tex
 
